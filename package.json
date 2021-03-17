@@ -1,0 +1,33 @@
+{
+  "name": "amazon-transcribe-comprehend-medical-twilio",
+  "version": "0.0.1",
+  "description": "Realtime transcription and medical analysis with Amazon Transcribe Medical and Comprehend Medical.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/eventstream-marshaller": "0.1.0-preview.2",
+    "@aws-sdk/util-utf8-node": "0.1.0-preview.1",
+    "aws-sdk": "^2.754.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-ws": "^4.0.0",
+    "query-string": "^6.11.1",
+    "socket.io": "^2.3.0",
+    "twilio": "^3.42.2",
+    "wavefile": "^11.0.0",
+    "websocket-stream": "^5.5.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "aws",
+    "transcribe",
+    "comprehend",
+    "medical"
+  ]
+}

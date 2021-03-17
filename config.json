@@ -1,0 +1,7 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT
+
+{
+  "s3_bucket": "YOUR_S3_BUCKET_NAME",
+  "ddb_table": "DBB_TABLE_NAME"
+}

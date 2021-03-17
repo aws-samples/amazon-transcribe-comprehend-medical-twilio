@@ -1,0 +1,94 @@
+/* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: MIT */
+
+body {
+  margin: 20px;
+}
+
+#transcript {
+  margin-bottom: 30px;
+  white-space: pre-wrap;
+}
+
+#start-button,
+#stop-button {
+  margin: 5px 0;
+}
+
+#error {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.4rem;
+  border-radius: 5px 5px 5px 5px;
+  color: #d8000c;
+  background-color: #ffd2d2;
+  display: none;
+}
+
+.isa_error i {
+  margin: 2px 12px;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+#logo {
+  height: 52px;
+}
+
+#github {
+  fill: #146eb4;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  width: 195px;
+  height: 30px;
+  border-radius: 7.5px;
+  margin-right: 10px;
+  color: white;
+  background-color: #0492c2;
+  border-color: #0492c2;
+  text-transform: uppercase;
+  border-style: none;
+}
+
+.submit-button:hover {
+  background-color: #1f356e;
+}
+
+.reset-button {
+  width: 195px;
+  height: 30px;
+  border-radius: 7.5px;
+  margin-left: 10px;
+  color: white;
+  background-color: gray;
+  border-color: gray;
+  text-transform: uppercase;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+.reset-button:hover {
+  background-color: #464646;
+}
+
+textarea {
+  width: 90%;
+}
