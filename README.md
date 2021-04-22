@@ -1,11 +1,6 @@
-## My Project
+## Use Amazon Lex as a conversational interface with Twilio Media Streams | Amazon Web Services
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+Refer to [Here](https://aws.amazon.com/blogs/machine-learning/use-amazon-lex-as-a-conversational-interface-with-twilio-media-streams/)
 
 ## Security
 
